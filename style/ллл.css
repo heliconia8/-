@@ -1,0 +1,62 @@
+
+body, h1, h2, h3, h4, h5, p, a {
+    margin: 0px;
+    text-decoration: none;
+}
+
+.header_container {
+    width: 100%;
+    margin: 5px;
+    background-color: rgb(127, 184, 109);
+
+    display: flex;
+    justify-content: center;
+}
+
+.header_content {
+    max-width: 1200px;
+    background-color: rgb(176, 140, 197);
+
+    display: flex;
+    flex: 1px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.block {
+    margin: 5px;
+    padding: 5px;
+    width: 30px;
+    height: 20px;
+    background-image: url(png-clipart-drop-drop-drops-transformed.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: rgb(7, 65, 116);
+}
+
+.menu_items {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+a {
+    color: rgb(0, 63, 63);
+    font-size: 240%;
+}
+
+@font-face {
+    font-family: "ok";
+    src: url(../style/pobeda-regular1.ttf);
+}
+
+* { 
+    font-family: "ok";
+}
